@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return : Always o (success)
+ * Return : Always 0 (success)
  *
  */
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 			putchar((j / 10) + '0');
 			putchar((j % 10) + '0');
 			if (i == 98 && j == 99)
-			continue; 
+				continue;
 			{
 				putchar(',');
 				putchar(' ');
@@ -30,4 +30,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
